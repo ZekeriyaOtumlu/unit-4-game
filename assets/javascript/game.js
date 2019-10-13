@@ -21,7 +21,7 @@ $(document).ready(function () {
         counter = 0;
         $("#starting-point").text(counter);
         
-        var randomNumber = Math.floor(Math.random() * 101) + 19;
+        randomNumber = Math.floor(Math.random() * 101) + 19;
         $("#random-number").text(randomNumber);
 
         first = Math.floor(Math.random() * 12) + 1;
