@@ -31,20 +31,6 @@ $(document).ready(function () {
 
     }
 
-    // function winner() {
-    //     wins++;
-    //     $("#wins").text("Wins:" + wins);
-
-    //     // resetGame();
-    // }
-
-    // function losser() {
-    //     losses++;
-    //     $("#losses").text("Losses: " + losses);
-
-    //     // resetGame();
-
-    // }
         
     $("#first").on("click", function () {
         $("#starting-point").text(first);
